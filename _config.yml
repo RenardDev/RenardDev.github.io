@@ -225,3 +225,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Plugins
+
+mermaid:
+  src: https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js
+
+plugins:
+  - jekyll-mermaid
